@@ -3,13 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enhanced Form</title>
+    <title>Enhanced Content using HTML</title>
 </head>
 <body>
     <header>
-        <h1>Enhanced Form </h1>
+        <h1>Enhanced HTML Elements</h1>
     </header>
-    <main>
+
+    <h2>Definition Lists</h2>
+    <dl>
+        <dt>USA</dt>
+        <dd>United States of America</dd>
+        <dt>UK</dt>
+        <dd>United Kingdom</dd>
+        <dt>CA</dt>
+        <dd>Canada</dd>
+        <dt>AU</dt>
+        <dd>Australia</dd>
+        <dt>IN</dt>
+        <dd>India</dd>
+        <dt>KE</dt>
+        <dd>Kenya</dd>
+        <dt>NG</dt>
+        <dd>Nigeria</dd>
+        <dt>ZA</dt>
+        <dd>South Africa</dd>
+        <dt>GH</dt>
+        <dd>Ghana</dd>
+    </dl>
+    <h2>Nested Lists</h2>
+    <ul>
+        <li>Planets</li>
+        <ul>
+            <li>Mercury</li>
+            <li>Venus</li>
+            <li>Earth</li>
+            <li>Mars</li>
+            <li>Jupiter</li>
+            <li>Saturn</li>
+            <li>Uranus</li>
+            <li>Neptune</li>
+    </ul>
+        <li>
+        Solar System</li>
+        <ul>
+            <li>Inner Planets</li>
+            <ul>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+            </ul>
+        </li>
+        <h2>Multimedia</h2>
+        <h3>Images</h3>
+        <img src="https://images.pexels.com/photos/31889976/pexels-photo-31889976.jpeg" alt="sand dunes of Kalahari" width="200" height="150">
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h3>Video</h3>
+        <video width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Tables</h3>
+        <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>30</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>25</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>Akira Tanaka</td>
+                    <td>28</td>
+                    <td>Japan</td>
+                </tr>
+            
+                <tr>
+                    <td>Maria Garcia</td>
+                    <td>35</td>
+                    <td>Spain</td>
+                </tr>
+                <tr>
+                    <td>Ahmed Khan</td>
+                    <td>40</td>
+                    <td>Pakistan</td>
+                </tr>
+        </table>
+        <h2>Forms</h2>
+        <p>Below is an enhanced form with various input types and attributes:</p>
+        <h3>Enhanced Form</h3>
         <form action="/submit" method="post" id="enhancedForm">
             <fieldset>
                 <legend>Personal Information</legend>
@@ -92,7 +187,6 @@
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </form>
-    </main>
     <footer>
         <p>&copy; 2025 Enhanced Form. All rights reserved.</p>
     </footer>
